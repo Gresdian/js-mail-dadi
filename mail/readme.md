@@ -25,4 +25,3 @@ Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 1 - creare prompt che permetta all'utente di inserire la propria email
 2 - creare un array di mail 
 3 - creare una condizione che permetta all'utente tramite la sua mail che se presente nell'array possa accedere
-
