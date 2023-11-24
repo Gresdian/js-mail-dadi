@@ -3,7 +3,7 @@ const button = document.getElementById('lancia');
 
 
 button.addEventListener('click', function(){
-    let dadoU , DadoB ,risultato, sconfitta
+    let dadoU , DadoB 
 
     dadoU = Math.round(Math.random() * (6 - 1) + 1);
     console.log(dadoU);
@@ -12,16 +12,14 @@ button.addEventListener('click', function(){
     console.log(DadoB);
 
     if (dadoU > DadoB) {
-  
-        risultato = "Complimenti giocatore1 hai Vinto!! ";
-        console.log(risultato);
+        console.log("Complimenti giocatore1 hai Vinto!! ");
     } 
-    else if(dadoU == DadoB){
-        risultato = "Pareggio!!";
-        console.log(risultato);
+    else if(dadoU < DadoB){
+
+        console.log("Purtroppo giocatore1 è andata male");
     } 
     else
-        sconfitta = "Purtroppo giocatore1 è andata male";
-        console.log(sconfitta);
+
+    console.log('Pareggio');
 
 })
